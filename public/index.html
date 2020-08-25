@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/vendor/materialize.min.css" media="screen,projection" />
+
+    <link rel="shortcut icon" href="/images/icons/icon-192x192.png">
+    <link rel="apple-touch-icon" href="/images/icons/icon-192x192.png">
+
+    <title>Soccer Base</title>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="theme-color" content="#e4ebea">
+
+    <link rel="manifest" href="/manifest.json">
+
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- navigasi -->
+    <nav class="nav-extended blue-grey darken-4">
+        <div class="nav-wrapper container">
+            <div class="right flex">
+                <a href="#">
+                    <h5>SoccerBase</h5>
+                </a>
+            </div>
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down topnav">
+                <li class="nav-items" id="home"><a href="#home">Dashboard</a></li>
+                <li class="nav-items checkout"><a href="#league">League</a></li>
+                <li class="nav-items"><a href="#liked">Liked Teams</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- navigasi -->
+
+    <ul class="sidenav" id="slide-out">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">League</a></li>
+        <li><a href="#">Liked Teams</a></li>
+    </ul>
+
+    <div class="container" id="body-content"></div>
+
+    <footer class="page-footer blue-grey darken-4">
+        <div class="footer-copyright">
+            <div class="container white-text">
+                Belajar Membangun Progressive Web Apps &copy; 2020, Dicoding Academy
+            </div>
+        </div>
+    </footer>
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/vendor/materialize.min.js"></script>
+    <script src="js/content/page.js"></script>
+    <script src="js/content/api.js"></script>
+    <script src="js/content/classhandler.js"></script>
+    <script src="js/database/idb.js"></script>
+    <script src="js/database/db.js"></script>
+    <script src="js/content/reload.js"></script>
+    <script src="js//content/sw-notif.js"></script>
+</body>
+
+</html>

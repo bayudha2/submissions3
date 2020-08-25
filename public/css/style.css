@@ -1,0 +1,96 @@
+body {
+    font-family: 'Quicksand', sans-serif !important;
+    background: url("/images/bg/background.svg"), url("/images/bg/background_2.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto;
+    background-position: center bottom, center top;
+}
+
+.carousel {
+    height: 1050px !important;
+}
+
+.section {
+    border-radius: 10px;
+    margin-top: 20px;
+    background: white;
+}
+
+.section h1 {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-action p {
+    margin: 0;
+    text-align: center;
+}
+
+.matches {
+    height: 260px !important;
+}
+
+@media only screen and (max-width: 999px) {
+    .matches {
+        height: 700px !important;
+    }
+}
+
+.fav-tim {
+    transition: .2s ease-in-out 0s;
+}
+
+.fav-tim:active {
+    transform: scale(0.95);
+}
+
+.fav-tim-name {
+    font-size: 14px;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+}
+
+@media only screen and (max-width: 1300px) {
+    .fav-tim-name {
+        font-size: 12px;
+        position: relative;
+        top: 0;
+    }
+}
+
+.side-nav {
+    font-size: 0.8em;
+}
+
+.fav-tim-img {
+    width: 60px;
+    height: 60px;
+}
+
+button.checkout {
+    transition: .2s ease-in-out 0s;
+}
+
+button.checkout:active {
+    transform: scale(0.95);
+}
+
+.modal-tim {
+    transform: translateX(5%) !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .modal-tim {
+        transform: translateX(0%) !important;
+    }
+}
+
+footer.page-footer {
+    margin-top: 20px;
+    padding: 0;
+}
