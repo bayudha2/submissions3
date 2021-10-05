@@ -15,7 +15,7 @@ var pushSubscription = {
     "endpoint": "https://fcm.googleapis.com/fcm/send/dAu-FTu4K3w:APA91bGx4E6ZDoDzkkoWiMnedmjk4p8VClqqNX9bMjz084GiNECTBEFobz0RZz-H5YPMWdpPVnAQ0aUAU2FS61qN25mnxf-cWI_r9zeL8e-aw8NyqwBdcsK7pPjeDlE4hIzte4PwEla6",
     "keys": {
         "p256dh": "BKM06oYmU8C4JSluxFi/fVkpell4iKnkMHW0dsKyU+LKryw3dCqZNAwtvYgjVndUJS59CEkHE3EIiEKFNkw6dtI=",
-        "auth": "oiq9PQ5ViBi1kWw1bCacLA=="
+
     }
 };
 var payload = 'ini adalah contoh push menggunakan FCM.';
