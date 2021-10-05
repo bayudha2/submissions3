@@ -4,7 +4,6 @@ const api_token = {
         "X-Auth-Token": "34a46c95352e4e62a88947219f5a7f70",
     }
 };
-// const api_token = "34a46c95352e4e62a88947219f5a7f70";
 
 function status(response) {
     if (response.status !== 200) {
